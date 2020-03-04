@@ -2,7 +2,13 @@ package com.example.gsonpractice.someclass;
 
 public class Basic {
     private String cid;
-
+    private String location;
+    private String parent_city;
+    private String admin_area;
+    private String cnty;
+    private String lat;
+    private String lon;
+    private String tz;
     public String getCid() {
         return cid;
     }
@@ -35,12 +41,5 @@ public class Basic {
         return tz;
     }
 
-    private String location;
-    private String parent_city;
-    private String admin_area;
-    private String cnty;
-    private String lat;
-    private String lon;
-    private String tz;
 
 }
